@@ -13,7 +13,7 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input onSubmit={this.setState({username: event.target.value})}id="username" name="username" type="text" />
+            <input onSubmit={this.setState({username: event.target.value})} id="username" name="username" type="text" />
           </label>
         </div>
         <div>
