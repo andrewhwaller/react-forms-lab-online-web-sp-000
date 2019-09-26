@@ -19,7 +19,7 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Password
-            <input id="password" name="password" type="password" />
+            <input onSubmit={this.setState({password: event.target.value}) id="password" name="password" type="password" />
           </label>
         </div>
         <div>
