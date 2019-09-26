@@ -13,13 +13,13 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input onSubmit={this.setState({username: event.target.value})} value={this.state.username} id="username" name="username" type="text" />
+            <input onChange={this.setState({username: event.target.value})} value={this.state.username} id="username" name="username" type="text" />
           </label>
         </div>
         <div>
           <label>
             Password
-            <input onSubmit={this.setState({password: event.target.value})} id="password" name="password" type="password" />
+            <input onChange={this.setState({password: event.target.value})} id="password" name="password" type="password" />
           </label>
         </div>
         <div>
